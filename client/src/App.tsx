@@ -32,7 +32,7 @@ const App: React.FC = () => {
 		};
 	}, []);
 
-	const handleDrag = (_e: any, data: any) => {
+	const handleDrag = (_e: unknown, data: { x: number; y: number }) => {
 		if (!isHolder) return;
 		const newPosition = { x: data.x, y: data.y };
 		setPosition(newPosition);
