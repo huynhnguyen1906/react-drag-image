@@ -1,0 +1,23 @@
+{
+	"name": "chat-box",
+	"version": "1.0.0",
+	"description": "Build chat box",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"server": "cd server && npm run dev",
+		"client": "cd client && npm run dev"
+	},
+	"keywords": [
+		"React",
+		"Express",
+		"social",
+		"network"
+	],
+	"author": "Huynhnguyen19006",
+	"license": "ISC",
+	"devDependencies": {
+		"concurrently": "^8.2.2"
+	}
+}
